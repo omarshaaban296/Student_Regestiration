@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | EduPortal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-page">
+
+      <section class="login-panel">
+        <form class="login-form" action="dashboard.html">
+          <div class="eyebrow">WELCOME BACK</div>
+          <h2>Sign in to EduPortal</h2>
+          <p>Enter your student account details to continue.</p>
+          <div class="field">
+            <label for="email">University Email</label
+            ><input
+              id="email"
+              type="email"
+              placeholder="name@university.edu"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="password">Password</label
+            ><input
+              id="password"
+              type="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              font-size: 10px;
+              color: #77809a;
+              margin: 5px 0 15px;
+            "
+          >
+            <label><input type="checkbox" /> Remember me</label
+            ><a href="#" style="color: #4f46e5">Forgot password?</a>
+          </div>
+          <button class="btn" type="submit"><a href="admin.html">Sign In as Admin</a></button>
+          <button class="btn" type="submit" ><a href="dashboard.html">Sign In as student</a> </button>
+          <div class="login-bottom">
+            New student? <a href="register.html">Create an account</a>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

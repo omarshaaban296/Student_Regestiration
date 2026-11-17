@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | EduPortal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="dashboard.html"
+        ><span class="brand-mark">EP</span> EduPortal</a
+      >
+      <nav class="top-links">
+        <a href="dashboard.html">Home</a><a href="courses.html">Courses</a
+        ><a href="schedule.html">Schedule</a><a href="admin.html">Admin</a>
+      </nav>
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="side-label">MAIN MENU</div>
+        <nav class="side-nav">
+          <a class="" href="dashboard.html"
+            >Dashboard</a
+          >
+          <a class="" href="courses.html"
+            >Course List</a
+          >
+          <a class="" href="course-details.html"
+            >Course Details</a
+          >
+          <a class="" href="schedule.html"
+            >My Schedule</a
+          >
+          <a class="active" href="admin.html"
+            >Admin Panel</a
+          >
+        </nav>
+      </aside>
+      <main class="main">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">ADMINISTRATION</div>
+            <h1>Admin Dashboard</h1>
+          </div>
+        </div>
+        <div class="grid stats">
+          <div class="card stat">
+            <div>
+              <p>Total Students</p>
+              <h2>1,248</h2>
+              <small>Across all departments</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div>
+              <p>Active Courses</p>
+              <h2>36</h2>
+              <small>Current semester</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div>
+              <p>Pending Requests</p>
+              <h2>18</h2>
+              <small>Awaiting review</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div>
+              <p>Confirmed Registrations</p>
+              <h2>892</h2>
+              <small>Fall semester 2026</small>
+            </div>
+          </div>
+        </div>
+        <div class="section-title">
+          <div>
+            <h2>Administration Tools</h2>
+            <p>Manage the main system records</p>
+          </div>
+        </div>
+        <div class="grid admin-grid">
+          <div class="card admin-action">
+            <div>
+              <h3>Add New Course</h3>
+              <p>Create a course and define its capacity and credit hours.</p>
+            </div>
+          </div>
+          <div class="card admin-action">
+            <div>
+              <h3>Update Course</h3>
+              <p>Edit course details, instructor, and prerequisites.</p>
+            </div>
+          </div>
+          <div class="card admin-action">
+            <div>
+              <h3>Delete Course</h3>
+              <p>Remove a course that is no longer offered.</p>
+            </div>
+          </div>
+          <div class="card admin-action">
+            <div>
+              <h3>Manage Students</h3>
+              <p>Review and update student academic records.</p>
+            </div>
+          </div>
+          <div class="card admin-action">
+            <div>
+              <h3>Review Requests</h3>
+              <p>Approve or reject course registration requests.</p>
+            </div>
+          </div>
+          <div class="card admin-action">
+            <div>
+              <h3>Capacity Management</h3>
+              <p>Check course capacity and available seats.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-title">
+          <div>
+            <h2>Recent Registration Requests</h2>
+            <p>Sample requests requiring administrator review</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>Student ID</th>
+                <th>Course</th>
+                <th>Request Date</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>John Smith</strong></td>
+                <td>20261025</td>
+                <td>Data Structures</td>
+                <td>14 Nov 2026</td>
+                <td><span class="status pending">Pending</span></td>
+                <td><a class="btn btn-light" href="#">Review</a></td>
+              </tr>
+              <tr>
+                <td><strong>Emma Wilson</strong></td>
+                <td>20261031</td>
+                <td>Database Systems</td>
+                <td>14 Nov 2026</td>
+                <td><span class="status pending">Pending</span></td>
+                <td><a class="btn btn-light" href="#">Review</a></td>
+              </tr>
+              <tr>
+                <td><strong>Michael Brown</strong></td>
+                <td>20261042</td>
+                <td>Logic Design</td>
+                <td>13 Nov 2026</td>
+                <td><span class="status">Approved</span></td>
+                <td><a class="btn btn-outline" href="#">View</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footer">
+          © 2026 EduPortal · Student Course Registration System
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

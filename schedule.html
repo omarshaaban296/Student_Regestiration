@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Schedule | EduPortal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="dashboard.html"
+        >EduPortal</a
+      >
+      <nav class="top-links">
+        <a href="dashboard.html">Home</a><a href="courses.html">Courses</a
+        ><a href="schedule.html">Schedule</a><a href="admin.html">Admin</a>
+      </nav>
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="side-label">MAIN MENU</div>
+        <nav class="side-nav">
+          <a class="" href="dashboard.html"
+            >Dashboard</a
+          >
+          <a class="" href="courses.html"
+            >Course List</a
+          >
+          <a class="" href="course-details.html"
+            >Course Details</a
+          >
+          <a class="active" href="schedule.html"
+            >My Schedule</a
+          >
+        </nav>
+      </aside>
+      <main class="main">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">MY ACADEMIC PLAN</div>
+            <h1>Weekly Schedule</h1>
+            <p>Your registered classes for Fall Semester 2026.</p>
+          </div>
+          <a class="btn btn-outline" href="dashboard.html">← Dashboard</a>
+        </div>
+        <div
+          class="grid stats"
+          style="grid-template-columns: repeat(3, minmax(0, 1fr))"
+        >
+          <div class="card stat">
+            <div>
+              <p>Registered Courses</p>
+              <h2>4</h2>
+            </div>
+          </div>
+          <div class="card stat">
+            <div>
+              <p>Weekly Sessions</p>
+              <h2>8</h2>
+            </div>
+          </div>
+          <div class="card stat">
+            <div>
+              <p>Semester</p>
+              <h2 style="font-size: 17px">Fall 2026</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-title">
+          <div>
+            <h2>Class Timetable</h2>
+            <p>Sunday – Thursday</p>
+          </div>
+        </div>
+        <div class="schedule-grid">
+          <div class="day-col">
+            <h3>SUNDAY</h3>
+            <div class="lesson">
+              <strong>Data Structures</strong><span>09:00 – 11:00 AM</span
+              ><br /><span>Room A101</span>
+            </div>
+            <div class="lesson">
+              <strong>Database Lab</strong><span>12:00 – 02:00 PM</span
+              ><br /><span>Lab B02</span>
+            </div>
+          </div>
+          <div class="day-col">
+            <h3>MONDAY</h3>
+            <div class="lesson">
+              <strong>Database Systems</strong><span>11:00 AM – 01:00 PM</span
+              ><br /><span>Room B204</span>
+            </div>
+          </div>
+          <div class="day-col">
+            <h3>TUESDAY</h3>
+            <div class="lesson">
+              <strong>Data Communication</strong><span>10:00 AM – 12:00 PM</span
+              ><br /><span>Room C105</span>
+            </div>
+            <div class="lesson">
+              <strong>Logic Design</strong><span>01:00 – 03:00 PM</span
+              ><br /><span>Room A203</span>
+            </div>
+          </div>
+          <div class="day-col">
+            <h3>WEDNESDAY</h3>
+            <div class="lesson">
+              <strong>System Analysis</strong><span>01:00 – 03:00 PM</span
+              ><br /><span>Room A202</span>
+            </div>
+          </div>
+          <div class="day-col">
+            <h3>THURSDAY</h3>
+            <div class="lesson">
+              <strong>Programming II</strong><span>09:00 – 11:00 AM</span
+              ><br /><span>Room C201</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          © 2026 EduPortal · Student Course Registration System
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

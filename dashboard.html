@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard | EduPortal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="dashboard.html"
+        >EduPortal</a
+      >
+      <nav class="top-links">
+        <a href="dashboard.html">Home</a><a href="courses.html">Courses</a
+        ><a href="schedule.html">Schedule</a><a href="admin.html">Admin</a>
+      </nav>
+      
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="side-label">MAIN MENU</div>
+        <nav class="side-nav">
+          <a class="active" href="dashboard.html"
+            >Dashboard</a
+          >
+          <a class="" href="courses.html"
+            >Course List</a
+          >
+          <a class="" href="course-details.html"
+            >Course Details</a
+          >
+          <a class="" href="schedule.html"
+            >My Schedule</a
+          >
+        </nav>
+        
+      </aside>
+      <main class="main">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"> Student Dashboard</div>
+            <h1>Welcome back</h1>
+            
+          </div>
+          <a class="btn" href="courses.html">＋ Browse Courses</a>
+        </div>
+        <div class="grid stats">
+          <div class="card stat">
+
+            <div>
+              <p>Registered Courses</p>
+              <h2>4</h2>
+              <small>Current semester</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div  style="background: #e8f5ff; color: #1685c7">
+            </div>
+            <div>
+              <p>Credit Hours</p>
+              <h2>12 / 18</h2>
+              <small>6 hours remaining</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div  style="background: #e6f8ef; color: #0f9f6e">
+            </div>
+            <div>
+              <p>Registration Status</p>
+              <h2 style="font-size: 19px; color: #0f9f6e">Active</h2>
+              <small>Eligible to register</small>
+            </div>
+          </div>
+          <div class="card stat">
+            <div  style="background: #fff3e6; color: #d9872c">
+            </div>
+            <div>
+              <p>Next Class</p>
+              <h2 style="font-size: 17px">Sunday</h2>
+              <small>Data Structures · 09:00 AM</small>
+            </div>
+          </div>
+        </div>
+        <div class="section-title">
+          <div>
+            <h2>My Registered Courses</h2>
+            <p>Your current semester subjects</p>
+          </div>
+          <a href="schedule.html" class="btn btn-light">View Schedule</a>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Code</th>
+                <th>Instructor</th>
+                <th>Credit Hours</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Data Structures</strong></td>
+                <td>CS201</td>
+                <td>Dr. Ahmed Hassan</td>
+                <td>3</td>
+                <td><span class="status">Registered</span></td>
+              </tr>
+              <tr>
+                <td><strong>Database Systems</strong></td>
+                <td>CS202</td>
+                <td>Dr. Mohamed Ali</td>
+                <td>3</td>
+                <td><span class="status">Registered</span></td>
+              </tr>
+              <tr>
+                <td><strong>Data Communication</strong></td>
+                <td>CS203</td>
+                <td>Dr. Sara Mostafa</td>
+                <td>3</td>
+                <td><span class="status">Registered</span></td>
+              </tr>
+              <tr>
+                <td><strong>System Analysis & Design</strong></td>
+                <td>CS204</td>
+                <td>Dr. Omar Khaled</td>
+                <td>3</td>
+                <td><span class="status">Registered</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footer">
+          © 2026 EduPortal · Student Course Registration System
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
